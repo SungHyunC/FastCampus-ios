@@ -1,0 +1,40 @@
+ 계산기 
+- 계산기 키패드 UI를 구성합니다.
+- 계산기를 통해 나누기 곱하기,빼기,더하기 연산이 가능합니다.
+- 누적 연산이 가능합니다.
+- AC 버튼을 누르면 계산이 초기화됩니다.
+
+활용 기술
+- UIStackView
+- IBDesignables
+- IBInspectable
+
+UIStackView
+- 열 또는 행에 View 들의 묶음을 배치할 수 있는 간소화된 인터페이스
+UIStackView Attribute
+
+UIStackView Axis
+
+StackView의 방향을 결정 (가로 또는 세로)
+
+Vertical Stack View
+
+Horizontal Stack View
+
+UIStackView Distribution
+- StackView 안에 들어가는 뷰들의 사이즈를 어떻게 분배할지 설정하는 속성
+Fill , Fill Equally
+Fill Proportionally, Equal Spacing
+Equal Centering
+
+UIStackView Alignment
+- StackView의 subView 들을 어떤식으로 정렬할지 결정하는 속성
+Fill,Leading
+Top,First Baseline
+Center,Trailing
+Bottom,Last Baseline
+
+UIStackView Spacing
+- Stack View 안에 들어가는 뷰들의 간격을 조정하는 속성
+
+
